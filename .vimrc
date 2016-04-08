@@ -16,11 +16,6 @@ set background=dark
 let g:solarized_termcolors=256
 set number
 set cursorline
-set smartindent
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set expandtab
 set hlsearch
 set paste
 set wildmenu
@@ -43,3 +38,9 @@ set statusline+=%F
 execute pathogen#infect()
 NeoBundle 'tpope/vim-fugitive'
 au BufRead,BufNewFile *.hsc set filetype=haskell
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+
